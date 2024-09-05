@@ -5,14 +5,14 @@ OrderManager é uma aplicação de gerenciamento de pedidos projetada para proce
 
 ## Funcionalidades
 
-- **Consumo de Eventos Kafka**: A aplicação consome eventos em batch a partir de tópicos Kafka.
-- **Processamento Paralelo**: Processa eventos em paralelo para maior eficiência.
-- **Idempotência Garantida**: Utiliza DynamoDB para garantir que cada evento seja processado apenas uma vez.
-- **Produção de Eventos Kafka**: Produz eventos para tópicos Kafka após o processamento.
-- **Arquitetura Hexagonal**: Segue o padrão de arquitetura hexagonal para modularidade e facilidade de manutenção.
-- **Logging e Métricas**: Implementa logging estruturado e métricas utilizando Micrometer e Prometheus.
-- **Infraestrutura como Código**: Utiliza Terraform para configurar a infraestrutura na AWS.
-- **Testes**: Inclui testes unitários e de integração para garantir a qualidade do código.
+✅ **Consumo de Eventos Kafka**: A aplicação consome eventos em batch a partir de tópicos Kafka.
+⏳ **Processamento Paralelo**: Processa eventos em paralelo para maior eficiência.
+✅ **Idempotência Garantida**: Utiliza DynamoDB para garantir que cada evento seja processado apenas uma vez.
+✅ **Produção de Eventos Kafka**: Produz eventos para tópicos Kafka após o processamento.
+✅ **Arquitetura Hexagonal**: Segue o padrão de arquitetura hexagonal para modularidade e facilidade de manutenção.
+⏳ **Logging e Métricas**: Implementa logging estruturado e métricas utilizando Micrometer e Prometheus.
+⏳ **Infraestrutura como Código**: Utiliza Terraform para configurar a infraestrutura na AWS.
+⏳ **Testes**: Inclui testes unitários e de integração para garantir a qualidade do código.
 
 ## Tecnologias
 
